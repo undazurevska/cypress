@@ -34,10 +34,6 @@ class HomePage extends BasePage {
     return cy.get(".shopping_cart_badge");
   }
 
-  static get cartItemList() {
-    return cy.get(".cart_item");
-  }
-
   static get removeSauceLabBackpackAddCartButton() {
     return cy.get('#remove-sauce-labs-backpack');
   }
@@ -52,14 +48,6 @@ class HomePage extends BasePage {
 
   static get inventoryItemNames() {
     return cy.get(".inventory_details_name");
-  }
-
-  static get ShopingCartLink() {
-    return cy.get(".shopping_cart_link");
-  }
-
-  static get Checkout() {
-    return cy.get("#checkout");
   }
 }
 
